@@ -1,0 +1,88 @@
+* {
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    color: white;
+    cursor: pointer;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.nav1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3vw;
+}
+
+button {
+    padding: 1vw 1.2vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav i {
+    font-size: 1.5vw;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .nav1 {
+        padding: 0 5vw;
+    }
+    .nav1 h2 {
+        font-size: 6vw;
+    }
+    .nav2 h4 {
+        font-size: 4vw;
+    }
+    button {
+        padding: 1vw 1.2vw;
+        border-radius: 5px;
+        border: none;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    nav i {
+        font-size: 3vw;
+        color: white;
+        display: block;
+    }
+    nav h4 {
+        display: none;
+    }
+
+    
+}
